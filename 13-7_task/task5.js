@@ -22,7 +22,7 @@ dropdown.onchange = function(){
         img.src = "./spain.jpg";
     } else if(selectedoption === "Norway"){
         img.src = "./norway.jpg";
-    } else if(selectedoption === "select"){
+    } else {
         img.src = "./select.png";
     }
 
